@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "gemini-chatbot"
+version = "0.0.1"
+description = "Summa Chatbot"
+authors = ["Heshinth <heshinth@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+google-generativeai = "^0.8.3"
+python-dotenv = "^1.0.1"
+rich = "^13.9.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
